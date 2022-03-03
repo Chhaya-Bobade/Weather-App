@@ -44,7 +44,7 @@ function showWeatherReport(weather) {
   let todayDate = new Date();
   date.innerText = dateManage(todayDate);
 
-  if (weatherType.textContent == "clear") {
+  if (weatherType.textContent == "Clear") {
     document.getElementById("app-main").style.backgroundImage =
       "url(images/Clear.jpg)";
     document.getElementById("img").src = "images/img1.png";
