@@ -46,7 +46,7 @@ function showWeatherReport(weather) {
 
   if (weatherType.textContent == "Clear") {
     document.getElementById("app-main").style.backgroundImage =
-      "url(images/Clear.jpg)";
+      "url(images/clear.jpg)";
     document.getElementById("img").src = "images/img1.png";
   } else if (weatherType.textContent == "Clouds") {
     document.getElementById("app-main").style.backgroundImage =
