@@ -64,6 +64,18 @@ function showWeatherReport(weather) {
     document.getElementById("app-main").style.backgroundImage =
       "url(images/thunder.jfif)";
     document.getElementById("img").src = "images/img5.png";
+  } else if (weatherType.textContent == "Haze") {
+    document.getElementById("app-main").style.backgroundImage =
+      "url(images/Haze.jpg)";
+    document.getElementById("img").src = "images/img6.png";
+  } else if (weatherType.textContent == "Smoke") {
+    document.getElementById("app-main").style.backgroundImage =
+      "url(images/Smoke.jpg)";
+    document.getElementById("img").src = "images/img7.png";
+  } else if (weatherType.textContent == "Mist") {
+    document.getElementById("app-main").style.backgroundImage =
+      "url(images/Mist.jfif)";
+    document.getElementById("img").src = "images/img8.png";
   }
 }
 //Date manage
